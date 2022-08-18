@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: rgb(182, 182, 182);
+}
+
+button {
+  background: rgb(0, 93, 170);
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.movie {
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.overview {
+  text-align: justify;
+  padding: 15px;
+}
+
+.movie .titulo {
+  color: rgb(158, 34, 34);
+  font-size: 20px;
+}
+
+.movie h3 {
+  color: rgb(31, 31, 31);
+}
+
+.vote_aberage {
+  background: rgb(216, 216, 21);
+  width: 15%;
+  margin: auto;
+  color: red;
+}
+
+h1 {
+  color: rgb(0, 38, 109);
+  margin-top: 100px;
+}
